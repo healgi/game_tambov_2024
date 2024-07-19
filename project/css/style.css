@@ -92,6 +92,8 @@ p {
     height: 60px;
     width: 300px;
 
+    font-size: 18px;
+
     border: 1px solid #ccc; 
     border-radius: 5px;
 }
