@@ -8,6 +8,7 @@
     <title>Game</title>
 </head>
 <body>
+
 <main class="main">
     <div class="container">
         <div class="main__inner">
@@ -36,14 +37,15 @@
 
             <!-- Блок с полем ввода ответа -->
             <div class="reply">
-                <form action="#" method="post" class="reply__form">
-                    <input type="text" placeholder="Введите текст" required>
-                    <button class="btn" type="submit">Отправить</button>
+                <form action="#" class="reply__form">
+                    <input id="answerInput" type="text" placeholder="Введите текст" required>
+                    <button class="btn" type="submit" onclick="checkAnswer()">Отправить</button>
                 </form>
             </div>
 
         </div>
     </div>
 </main>
+<script src="js/script.js"></script>
 </body>
 </html>
