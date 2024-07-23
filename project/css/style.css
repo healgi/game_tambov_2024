@@ -30,11 +30,7 @@ p {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 0 15px;        
 }
 
 
@@ -55,7 +51,7 @@ p {
 
 /* cipher */
 .cipher__text {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 /* task */
@@ -85,7 +81,7 @@ p {
     justify-content: space-between;
     
     width: 100%;
-    height: 50px;
+    height: 120px;
 }
 
 .reply__form input {
@@ -110,5 +106,43 @@ p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Media */
+@media (max-width: 750px) {
+
+    .main__inner {
+        margin-top: 50px;
+    }
+
+    .cipher__text {
+        font-size: 40px;
+    }
+
+    .task__text {
+        padding: 15px;
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 470px) {
+
+    .task__text {
+        padding: 10px;
+    }
+
+    .reply__form {
+        flex-direction: column;
+    }
+
+    .reply__form input {
+        height: 50px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        font-size: 18px;
+    }
 }
    
