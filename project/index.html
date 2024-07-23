@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <title>Game</title>
+</head>
+<body>
+
+<main class="main">
+    <div class="container">
+        <div class="main__inner">
+
+            <!-- Блок со строкой шифра -->
+            <div class="cipher">
+                <div class="cipher__text">
+                    10011010010
+                </div>
+            </div>
+
+            <!-- Блок с заданием -->
+            <div class="task">
+                <p class="task__text"> 
+                    Посетите первое забытое место, где вы найдёте древний камень.
+                     Решите загадку, которую он скрывает. Далее отправляйтесь 
+                     во вторую локацию, где вас ожидает противник. 
+                     Победите его, чтобы получить карту, ведущую к 
+                     следующей локации. В третьей локации вам нужно 
+                     открыть сундук с сокровищем. Для этого расшифруйте 
+                     загадку, основываясь на подсказках из первых двух локаций. 
+                     Полностью завершив задание, вы получите мощный амулет, 
+                     который усилит ваши навыки. Удачи в вашем путешествии!
+                </p>
+            </div>
+
+            <!-- Блок с полем ввода ответа -->
+            <div class="reply">
+                <form action="#" class="reply__form">
+                    <input id="answerInput" type="text" placeholder="Введите текст" required>
+                    <button class="btn" type="submit" onclick="checkAnswer()">Отправить</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
