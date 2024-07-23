@@ -128,6 +128,10 @@ p {
 
 @media (max-width: 470px) {
 
+    .container {
+        padding: 0 10px;        
+    }
+
     .task__text {
         padding: 10px;
     }
